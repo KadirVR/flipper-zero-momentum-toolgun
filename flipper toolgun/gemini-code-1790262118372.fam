@@ -1,0 +1,8 @@
+App(
+    appid="gmod_toolgun",
+    name="GMod Toolgun",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="toolgun_app",
+    stack_size=2 * 1024,
+    fap_category="Misc",
+)
